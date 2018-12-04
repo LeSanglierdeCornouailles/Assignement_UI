@@ -1,0 +1,89 @@
+h1{
+    color: blue;
+    font-family: verdana;
+    text-align: center;
+    font-size: 300%;
+}
+
+#paragraph{
+	font-size: 150%;
+}
+
+h2,h3,h4,h5,h6,h7{
+    color: black;
+    font-family: verdana;
+    text-align: left-side;
+    font-size: 100%;
+}
+
+
+.round1{
+    border:2px solid yellow;
+    border-radius:16px;
+	text-align:center;
+	word-spacing:100px;
+	font-size: 30px;
+}
+
+.container{
+    display: grid;
+    grid-template-column: auto auto;
+	grid-template-row: auto auto auto;
+    grid-gap: 3px;
+    padding: 10px;
+    border: 1px solid powderblue;
+    margin: 10px;
+}
+
+.item1{
+	grid-column:1 / span 2;
+	background-color: red;
+}
+	
+
+.item2{
+	grid-column:1;
+	grid-row:2;
+	background-color: green;
+	color: black;
+    font-family: verdana;
+    text-align: left-side;
+    font-size: 100%;
+}
+
+
+.item3{
+	grid-column:2;
+	grid-row:2;
+	background-color: green;
+	color: black;
+    font-family: verdana;
+    text-align: left-side;
+    font-size: 100%;
+}
+
+.item4{
+	grid-column:1;
+	grid-row:3;
+	background-color: yellow;
+}
+
+.item5{
+	grid-column:2;
+	grid-row:3;
+	background-color: LightGray;
+	color: black;
+    font-family: verdana;
+    text-align: left-side;
+    font-size: 100%;
+}
+
+.item6{
+	grid-column:1 / span 2;
+	background-color: LightGray;
+	color: black;
+    font-family: verdana;
+    text-align: left-side;
+    font-size: 100%;
+}
+
